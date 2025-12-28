@@ -1,0 +1,618 @@
+/*TODO: ---------RESERVATION----------- */
+.info {
+    @media ( max-width: 992px ) {
+        font-size: 35px;
+    }
+    @media ( max-width: 768px ) {
+        font-size: 20px;
+    }
+}
+
+.info1 {
+    margin-bottom: 130px;
+
+    @media ( max-width: 1800px ) {
+        padding-left: 80px;
+    }
+    @media ( max-width: 992px ) {
+        margin-bottom: 80px;
+    }
+    @media ( max-width: 480px ) {
+        font-size: 15px;
+        padding-left: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+.page {
+    background: rgb(220, 220, 220)
+}
+
+.page-reservation__item {
+    padding-bottom: 90px;
+
+    @media ( max-width: 480px ) {
+        padding-bottom: 60px;
+    }
+}
+
+.reservation__container {
+    background: rgb(220, 220, 220);
+}
+
+.reservation__content {
+    background: rgb(220, 220, 220);
+    
+}
+
+.reservation__item-btn {
+    position: absolute;
+    top: 190px;
+    left: 7%;
+    display: inline-flex;
+    padding: 15px 25px;
+    background: rgb(32, 40, 70);
+    border-radius: 30px;
+    transition: all 0.3s;
+
+    @media ( max-width: 992px ) {
+        top: 95px;
+    }
+    @media ( max-width: 768px ) {
+        padding: 10px 15px;
+        top: 85px;
+        border-radius: 25px;
+    }
+    @media ( max-width: 480px ) {
+        padding: 5px 10px;
+        top: 48px;
+    }
+}
+
+.reservation__item-btn:hover {
+    background-color: rgb(158, 25, 25);
+}
+
+.reservation__btn-box {
+    margin-left: 16px;
+}
+
+.reservation__btn-text {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    line-height: 1.29;
+
+    @media ( max-width: 768px ) {
+        font-size: 18px;
+    }
+}
+
+.reservation__btn-arrow {
+    display: inline-block;
+    align-items: center;
+}
+
+.reservation__btn-arrow1::before,
+.reservation__btn-arrow1::after {
+    content: '';
+    display: inline-block;
+    width: 78px;
+    height: 78px;
+}
+
+.reservation__btn-arrow1::before {
+    width: 35px;
+    height: 3px;
+    background-color:  rgb(255, 255, 255);
+    transform: translate(45%, -100%);
+}
+
+.reservation__btn-arrow1::after {
+    width: 15px;
+    height: 15px;
+    transform: translate(-130%, 20%) rotate(320deg);
+    border-top: 3px solid rgb(255, 255, 255);
+    border-left: 3px solid rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+
+/*TODO: ---------ITEM__ATTRACTIONS----------- */
+.item__attractions {
+    @media ( min-width: 992px ) {
+        display: flex;
+    }
+}
+
+.item__attractions-imegs {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 611px;
+}
+
+.item__attractions-imeg1 {
+    position: relative;
+    flex: 0 0 auto;
+    display: block;
+    min-height: 314px;
+    padding-bottom: 52%;
+    overflow: hidden;
+    margin-bottom: 8px;
+    margin-right: 8px;
+
+    @media ( max-width: 992px ) {
+        min-height: 200px;
+    }
+}
+
+.item__attractions-imeg2 {
+    position: relative;
+    flex: 0 0 auto;
+    display: block;
+    min-height: 343px;
+    padding-bottom: 55%;
+    overflow: hidden;
+    margin-right: 8px;
+
+    @media ( max-width: 992px ) {
+        min-height: 200px;
+        margin-bottom: 8px;
+    }
+}
+
+.item__attractions-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    
+    @media ( min-width: 992px ) {
+        max-width: 870px;
+    }
+}
+
+.item__attractions-text {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    background: rgb(199, 199, 199);
+    margin-bottom: 8px;
+    padding: 0 10px;
+}
+
+.item__attractions-text1 {
+    max-width: 690px;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-size: 29px;
+    line-height: 1.31;
+
+    @media ( max-width: 768px ) {
+        font-size: 20px;
+    }
+    @media ( max-width: 480px ) {
+        font-size: 14px;
+    }
+}
+
+.attractions-text1 {
+    margin-bottom: auto;
+}
+
+.item__attractions-rooms {
+    display: flex;
+    margin-bottom: -8px;
+    padding-bottom: 8px;
+}
+
+.item__attractions-room1 {
+    position: relative;
+    flex: 0 1 50%;
+    display: block;
+    padding-bottom: 32%;
+    min-height: 220px;
+    overflow: hidden;
+
+    @media ( max-width: 992px ) {
+        min-height: 100px;
+    }
+}
+
+.attractions-room1 {
+    margin-left: 8px;
+}
+
+
+/*TODO: ---------PLACE----------- */
+.reservation__item-place {
+    padding: 50px 0;
+
+    @media ( max-width: 992px ) {
+        padding: 0;
+    }
+}
+
+.place__title {
+    color: rgb(32, 40, 70);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.29;
+    text-align: center;
+    margin-bottom: 35px;
+
+    @media ( max-width: 992px ) {
+        margin-bottom: 0;
+        font-size: 35px;
+    }
+    @media ( max-width: 480px ) {
+        font-size: 15px;
+    }
+}
+
+.place__box {
+    padding: 15px 0 28px 44px;
+    background: rgb(206, 206, 216);
+    border-bottom: 4px solid rgb(28, 78, 104);
+
+    @media ( max-width: 768px ) {
+        padding: 5px 0 5px 15px;
+    }
+    @media ( max-width: 480px ) {
+        position: relative;
+        padding-bottom: 50px;
+    }
+}
+
+.place__subtitle {
+    color: rgb(0, 0, 0);
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 1.31;
+
+    @media ( max-width: 992px ) {
+        font-size: 20px;
+    }
+    @media ( max-width: 480px ) {
+        font-size: 12px;
+    }
+}
+
+.place__date {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*TODO: ---------PLACEDATA----------- */
+.place__date-item {
+    @media ( max-width: 850px ) {
+        order: 1;
+    }
+}
+
+.place__date-item1 {
+    @media ( max-width: 850px ) {
+        order: 3;
+    }
+}
+
+.date-item {
+    margin-right: 30px;
+
+    @media ( max-width: 500px ) {
+        margin-right: 15px;
+    }
+}
+
+.date-item-title {
+    color: rgb(0, 0, 0);
+    font-size: 29px;
+    line-height: 1.31;
+    margin: 24px 0 10px 0;
+
+    @media ( max-width: 992px ) {
+        font-size: 20px;
+    }
+    @media ( max-width: 768px ) {
+        margin: 0;
+    }
+    @media ( max-width: 480px ) {
+        font-size: 12px;
+    }
+}
+
+.date-item-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid rgb(144, 164, 174);
+    background: rgb(255, 255, 255);
+
+    @media ( max-width: 1370px ) {
+        padding: 5px;
+        max-width: 250px;
+    }
+    @media ( max-width: 992px ) {
+        /* max-width: 200px; */
+    }
+    @media ( max-width: 768px ) {
+        max-width: 200px;
+    }
+}
+
+.date-item-info {
+    display: flex;
+    align-items: center;
+}
+
+.date-item-text {
+    color: rgb(153, 153, 153);
+    font-size: 20px;
+    line-height: 1.31;
+    margin-left: 20px;
+
+    @media ( max-width: 992px ) {
+        font-size: 15px;
+    }
+}
+
+
+/*TODO: ---------PLACECONTENT----------- */
+.place__contents {
+    margin-top: 30px;
+
+    @media ( max-width: 768px ) {
+        margin-top: 10px;
+    }
+}
+
+.place__content {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 50px;
+
+    @media ( max-width: 992px ) {
+        margin-right: 20px;
+    }
+    @media ( max-width: 768px ) {
+        margin: 10px 40px 10px 0;
+    }
+    @media ( max-width: 768px ) {
+        margin: 10px 10px 10px 0;
+    }
+    @media ( max-width: 480px ) {
+        margin: 10px 0px 10px 0;
+    }
+}
+
+.place__text {
+    font-size: 29px;
+    line-height: 1.31;
+    margin-right: 15px;
+
+    @media ( max-width: 992px ) {
+        font-size: 20px;
+    }
+    @media ( max-width: 768px ) {
+        font-size: 15px;
+    }
+    @media ( max-width: 480px ) {
+        font-size: 10px;
+        margin-right: 3px;
+    }
+}
+
+.place__quantity {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 8px 8px 17px;
+    border: 2px solid rgb(144, 164, 174);
+    background: rgb(255, 255, 255);
+
+    @media ( max-width: 480px ) {
+        padding: 8px 8px 8px 8px;
+    }
+}
+
+.place__number {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    line-height: 1.31;
+    margin-right: 5px;
+
+    @media ( max-width: 992px ) {
+        font-size: 26px;
+    }
+    @media ( max-width: 768px ) {
+        font-size: 18px;
+    }
+    @media ( max-width: 480px ) {
+        font-size: 12px;
+    }
+}
+
+.place__btn {
+    color: rgb(255, 255, 255);
+    font-size: 29px;
+    line-height: 1.31;
+    padding: 18px 37px;
+    background: rgb(43, 54, 92);
+    display: block;
+    text-align: center;
+    width: 365px;
+    transition: all 0.3s;
+    margin-right: 140px;
+    margin-top: 58px;
+
+    @media ( max-width: 1370px ) {
+        padding: 5px;
+        font-size: 22px;
+        width: 250px;
+        margin-right: 50px;
+    }
+    @media ( max-width: 992px ) {
+        font-size: 15px;
+        width: 170px;
+        padding: 10px;
+        margin-right: 20px;
+    }
+    @media ( max-width: 850px ) {
+        margin-top: 25px;
+        order: 2;
+    }
+    @media ( max-width: 480px ) {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        margin: 0;
+        font-size: 10px;
+        width: 120px;
+    }
+}
+
+.place__btn:hover {
+    background-color: rgb(158, 25, 25);
+}
+
+
+/*TODO: ---------ACCOM----------- */
+.reservation__item-accom {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(143, 152, 185);
+}
+
+.accom {
+    @media ( max-width: 480px ) {
+        display: block;
+    }
+}
+
+.accom__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.accom__item1 {
+    flex: 0 1 15.4%;
+    border-right: 3px solid rgb(143, 152, 185);
+}
+
+.accom__item2 {
+    flex: 0 1 56.7%;
+    border-right: 3px solid rgb(143, 152, 185);
+}
+
+.accom__item3 {
+    flex: 0 1 27.9%;
+}
+
+.accom__item-text {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    line-height: 1.31;
+    background: rgb(76, 83, 107);
+    padding: 16px 10px 19px 50px;
+
+    @media ( max-width: 992px ) {
+        font-size: 22px;
+    }
+    @media ( max-width: 768px ) {
+        font-size: 15px;
+        padding: 10px ;
+    }
+    @media ( max-width: 480px ) {
+        text-align: center;
+    }
+}
+
+.accom__item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    text-align: center;
+    background: rgb(207, 207, 209);
+
+    @media ( max-width: 992px ) {
+        height: 150px;
+    }
+    @media ( max-width: 768px ) {
+        height: 100px;
+    }
+}
+
+.accom__item-img {
+    @media ( max-width: 768px ) {
+        width: 70px;
+    }
+}
+
+.accom__item-img1 {
+    padding-bottom: 20px;
+
+    @media ( max-width: 768px ) {
+        width: 30px;
+    }
+}
+
+.accom__item-info {
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    line-height: 1.31;
+    text-align: left;
+    margin-left: 37px;
+
+    @media ( max-width: 992px ) {
+        font-size: 22px;
+        margin-left: 10px;
+    }
+    @media ( max-width: 768px ) {
+        font-size: 15px;
+    }
+    @media ( max-width: 480px ) {
+        text-align: center;
+    }
+}
+
+.accom__item-info1 {
+    margin-bottom: 20px;
+
+    @media ( max-width: 992px ) {
+        margin-bottom: 10px;
+    }
+}
+
+.accom__item-span {
+    margin-left: 15px;
+}
+
+.accom__item-btn1:hover {
+    background: rgb(33, 75, 228);
+}
+
+.accom__item-btn1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    line-height: 1.31;
+    background: rgb(104, 123, 192);
+    padding: 15px 50px;
+    transition: all 0.3s;
+
+    @media ( max-width: 1300px ) {
+        padding: 10px 20px;
+    }
+    @media ( max-width: 992px ) {
+        font-size: 20px;
+    }
+    @media ( max-width: 768px ) {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
